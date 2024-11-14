@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(146, 79, 209);
+    color: rgb(113, 7, 212);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: "Anonymous Pro";
+}
+
+.box {
+    background-color: rgb(245, 245, 245);
+    width: 35em;
+    height: 22em;
+    margin-top: 10em;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.288);
+}
+
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+    width: 15em;
+    margin: 1em auto;
+}
+
+.box__numero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1.25em;
+}
+
+input {
+    margin-top: 3em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    outline: none;
+}
+
+h3 {
+    margin-top: 2em;
+    font-size: 1.5em;
+}
