@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendas.css">
+    <title>Vendas</title>
+</head>
+<body>
+    <main>
+        <h1>Calculando as Vendas totais do C++ for fools</h1>
+        <p class="texto">Informe o total de vendas de acordo com o mês correspondente:</p>
+
+        <div class="informa">
+            <label for="mes" class="informa__texto">Total de vendas de <span id="mes">Janeiro</span>:</label>
+            <input type="number" id="livrosQuantidade" class="informa__caixa">
+            <input type="button" class="informa__botao" value="Salvar" onclick="somar()">
+        </div>
+        
+        <p class="somaTot" id="result">...</p>
+    </main>
+    <script src="vendas.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1f1f1f;
+    color: #d3d3d3;
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background-color: #282935;
+    text-align: center;
+}
+
+h1 {
+    padding: 1.5em;
+}
+
+.texto {
+    padding: 0 1.2em 2em 1.2em;
+    font-size: 20px;
+}
+
+.informa {
+    margin-bottom: 2em;
+    font-size: 18px;
+    display: flex;
+    align-items: center;justify-content: center;
+}
+
+.informa__texto {
+    margin-right: 1em;
+}
+
+.informa__caixa {
+    margin-right: 0.6em;
+    padding: 0.4em;
+    text-align: center;
+    font-size: 15px;
+    outline: none;
+    background-color: #1f2029;
+    border: none;
+    color: #d3d3d3;
+    border-radius: 3px;
+}
+
+input[type="button"] {
+    cursor: pointer;
+    padding: 0.3em 0.8em;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 3px;
+    background-color: #ffeba7;
+    box-shadow: 0 8px 24px 0 rgb(255 235 167 / 20%);
+    color: #5e6681;
+    border: none;
+}
+
+input[type="button"]:hover {
+    background-color: #5e6681;
+    color: #ffeba7;
+    box-shadow: 0 8px 24px 0 rgb(16 39 112 / 20%);
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+.analisarVenda {
+    margin: 1em 0 2.5em 0;
+}
+
+.somaTot {
+    margin-bottom: 1.8em;
+}

@@ -51,3 +51,12 @@ h3 {
     margin-top: 2em;
     font-size: 1.5em;
 }
+
+.botao {
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: rgb(146, 79, 209);
+    color: white;
+}

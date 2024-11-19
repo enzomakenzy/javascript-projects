@@ -11,7 +11,7 @@
 </head>
 <body>
     <main>
-        <h1>Exercício 4</h1>
+        <h1>Exercício 2</h1>
         <h2>Juros Simples e Composto</h2>
         <div class="juros">
             <p>Juros da Daphne: 10% em cima do valor inicial</p>
@@ -19,17 +19,18 @@
         </div>
         <div class="boxes">
             <div class="informacoes daphne">
-                <label for="daphneMoney">Informe o dinheiro de Daphne: </label>
+                <label for="daphne_money">Informe o dinheiro de Daphne: </label>
                 <input type="text" id="daphneMoney">
             </div>
             <div class="informacoes cleo">
-                <label for="cleoMoney">Informe o dinheiro de Cleo:</label>
+                <label for="cleo_money">Informe o dinheiro de Cleo:</label>
                 <input type="text" id="cleoMoney">
             </div>
-            <input class="botao" type="submit" value="Analisar">
+            <input class="botao" type="button" value="Analisar" onclick="analisarTempo()">
         </div>
 
         <p id="result">...</p>
     </main>
+    <script src="juros.js"></script>
 </body>
 </html>

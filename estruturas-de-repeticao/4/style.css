@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 0.85em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #212121;
+    
+}
+
+main {
+    background: rgba(24, 20, 20, 0.988);
+    color: lightgray;
+    text-align: center;
+    padding: 2em;
+    margin: 1em;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border: 1px solid blueviolet;
+}
+
+.done {
+    color: blueviolet;
+}
+
+.titulo {
+    padding-bottom: 0.8em;
+}
+
+.explica {
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-bottom: 1.8em;
+    margin: auto;
+}
+
+.adicionando-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.palavra {
+    outline: none;
+    font-family: "Poppins";
+    background-color: transparent;
+    border-color: lightgray;
+    color: lightgray;
+    border-width: 0px 0px 1px 0px;
+    padding: 0.5em 0;
+    width: 250px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.adicionar {
+    position: relative;
+    text-align: center;
+    width: 100px;
+    padding: 0.5em 0;
+    font-size: 1.1em;
+    margin: 1.2em 0;
+    background-color: transparent;
+    border: none;
+    color: lightgray;
+    font-weight: 600;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.adicionar:hover {
+    background-color: blueviolet;
+    border-radius: 8px;
+    box-shadow: 0 0 2px blueviolet,
+    0 0 15px blueviolet,
+    0 0 25px blueviolet;
+}
+
+#result {
+    font-size: 1.2em;
+}
